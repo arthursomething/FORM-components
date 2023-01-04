@@ -1,0 +1,29 @@
+/* custom styles */
+.rowGallery {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+  width: 100vw;
+  height: 80vh;
+  /* border: green solid 1px; */
+  gap: 2px;
+}
+
+.imgBlock {
+  /* outline: solid 1px red; */
+  border: solid red 1px;
+  width: 100%;
+  transition: ease 0.4s;
+}
+
+.imgBlock:hover {
+  width: 190%;
+}
+
+#a {
+  background-image: url('https://www.residentialproductsonline.com/sites/rpo/files/u11/2021-03/FORM-Kitchens-Project-Drawer-Accessoties.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
