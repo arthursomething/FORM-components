@@ -1,29 +1,53 @@
 /* custom styles */
+
+
+
 .rowGallery {
   display: flex;
   flex-direction: row;
   align-items: stretch;
   justify-content: center;
-  width: 100vw;
-  height: 80vh;
+  width: 90rem;
+  height: 70vh;
   /* border: green solid 1px; */
   gap: 2px;
 }
 
 .imgBlock {
   /* outline: solid 1px red; */
-  border: solid red 1px;
+  /* border: solid red 1px; */
   width: 100%;
-  transition: ease 0.4s;
+  transition: ease 0.65s;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: rgb(60, 60, 60);
+  opacity: .4;
+  
 }
 
 .imgBlock:hover {
   width: 190%;
+  transform: scale(1.1);
+  opacity: 1;
+  z-index: 9;
+  box-shadow: 0px 4px 90px 20px rgba(60, 60, 60,.3);
 }
 
 #a {
-  background-image: url('https://www.residentialproductsonline.com/sites/rpo/files/u11/2021-03/FORM-Kitchens-Project-Drawer-Accessoties.jpg');
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
+  background-image: url('https://i.pinimg.com/736x/74/d9/9a/74d99a39c1843a1c6b12d5c0b81386e4.jpg');
 }
+
+#b {
+  background-image: url('https://formkitchens.com/static/8b57bc3665719cab1020cfb31ea7e9db/83829/performance-functionality-option-pull-out-shelving.png');
+}
+
+#c {
+  background-image: url('https://formkitchens.com/static/9fd24fa737890e6df5f35c57adb9a994/83829/performance-functionality-option-system.png');
+}
+
+#d {
+  background-image: url('https://formkitchens.com/static/90fbdb8cd9b7c37bfd1e1434810fa3e9/41af8/mati-counter-test-3.jpg');
+}
+
+

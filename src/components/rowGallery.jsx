@@ -7,18 +7,10 @@ function RowGallery() {
 
   return (
     <div className="rowGallery">
-      <div className="imgBlock" id="a">
-        a
-      </div>
-      <div className="imgBlock" id="b">
-        b
-      </div>
-      <div className="imgBlock" id="c">
-        c
-      </div>
-      <div className="imgBlock" id="d">
-        d
-      </div>
+      <div className="imgBlock" id="a"></div>
+      <div className="imgBlock" id="b"></div>
+      <div className="imgBlock" id="c"></div>
+      <div className="imgBlock" id="d"></div>
     </div>
   );
 }
